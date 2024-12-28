@@ -1,6 +1,6 @@
 class Cpptrace < Formula
   desc "Simple, portable, and self-contained stacktrace library for C++11 and newer"
-  homepage ""
+  homepage "https://github.com/jeremy-rifkin/cpptrace"
   url "https://github.com/jeremy-rifkin/cpptrace/archive/refs/tags/v0.7.4.tar.gz"
   sha256 "1241790cace5d59ddf21ce5d046f71cd26448a3c8c15d123157498ba81e3543d"
   license "MIT"

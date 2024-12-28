@@ -6,11 +6,11 @@ class Y3cStl < Formula
   license "MIT"
 
   depends_on "cmake" => :build
-  depends_on "cpptrace"
-  depends_on "dwarfutils"
   depends_on "meson" => :build
   depends_on "ninja" => :build
   depends_on "rang" => :build
+  depends_on "cpptrace"
+  depends_on "dwarfutils"
 
   def install
     system "meson", "setup", "build", *std_meson_args, "-Dtests=false"
