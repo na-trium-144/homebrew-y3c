@@ -1,5 +1,5 @@
 class Rang < Formula
-  desc "A Minimal, Header only Modern c++ library for terminal goodies 💄✨"
+  desc "Minimal, Header only Modern c++ library for terminal goodies"
   homepage "https://agauniyal.github.io/rang/"
   url "https://github.com/agauniyal/rang/archive/refs/tags/v3.2.tar.gz"
   sha256 "8b42d9c33a6529a6c283a4f4c73c26326561ccc67fbb3e6a3225edd688b39973"
