@@ -1,8 +1,8 @@
 class Y3cStl < Formula
   desc "Friendly C++ STL wrapper with automatic stacktrace"
   homepage "https://na-trium-144.github.io/y3c-stl/"
-  url "https://github.com/na-trium-144/y3c-stl/archive/refs/tags/v0.3.2.tar.gz"
-  sha256 "4d42cccc259a8f38791f96ffef2990fb0fa689db3f371561b723bc0cf9809aec"
+  url "https://github.com/na-trium-144/y3c-stl/archive/refs/tags/v0.3.3.tar.gz"
+  sha256 "1b2871871ad17aa89ae66c157c4ec554a7f6c4f2a9fce4520b6d3a79e06379a4"
   license "MIT"
 
   bottle do
