@@ -6,11 +6,11 @@ class Y3cStl < Formula
   license "MIT"
 
   bottle do
-    root_url "https://github.com/na-trium-144/homebrew-y3c/releases/download/y3c-stl-0.3.2"
-    sha256 cellar: :any, arm64_sequoia: "2bfb0e0b98c3d172ef2a3b68e582fb43110f73d1e34be53829433aa8bfa239e1"
-    sha256 cellar: :any, arm64_sonoma:  "0e2a7ef2b73ad77190c654b5bdac3a2a597a5169cdb7d992eac8e662c883408c"
-    sha256 cellar: :any, ventura:       "071faec2953f2932c24ef1fb92b3e8bce58eb90900ae33d59e71542bde12fe37"
-    sha256               x86_64_linux:  "01cdb8595ebe088c02787786f40875f9348af4b18bb70f469e66855980363889"
+    root_url "https://github.com/na-trium-144/homebrew-y3c/releases/download/y3c-stl-0.3.3"
+    sha256 cellar: :any, arm64_sequoia: "cbbb921efc95cf43df230d056ce9e6fdecaa2935ec2b028dc1462b65026372f9"
+    sha256 cellar: :any, arm64_sonoma:  "70651566d40595a99b1b2542959743ffb8a1181077f930a744a536d98787a40d"
+    sha256 cellar: :any, ventura:       "48412fcc2038bad92ec73a0265337aa59160784e5928570d5aa35faca2ce51fa"
+    sha256               x86_64_linux:  "31e1fb61a5d4bfaaf570ca2ca7dea74547ccbf9ac3f6049cc25469ccbd8c4a2a"
   end
 
   depends_on "cmake" => :build
